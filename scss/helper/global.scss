@@ -1,0 +1,18 @@
+*{
+  font-family: $font-family;
+}
+body {
+  background: #d5eebd;
+  background: radial-gradient(circle farthest-corner at right bottom,#fced98 0,#b3eedc 100%);
+  color: #333;
+}
+.container {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+.animation{
+  transition: all .15s;
+}
